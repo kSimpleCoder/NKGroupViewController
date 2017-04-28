@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761260201EB31A3B0078C374 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7612601F1EB31A3B0078C374 /* main.m */; };
+		761260231EB31A3B0078C374 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761260221EB31A3B0078C374 /* AppDelegate.m */; };
+		761260261EB31A3B0078C374 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761260251EB31A3B0078C374 /* ViewController.m */; };
+		761260291EB31A3B0078C374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761260271EB31A3B0078C374 /* Main.storyboard */; };
+		7612602B1EB31A3B0078C374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7612602A1EB31A3B0078C374 /* Assets.xcassets */; };
+		7612602E1EB31A3B0078C374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7612602C1EB31A3B0078C374 /* LaunchScreen.storyboard */; };
+		761260391EB31A3B0078C374 /* NKGroupTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761260381EB31A3B0078C374 /* NKGroupTableViewTests.m */; };
+		761260441EB31A3B0078C374 /* NKGroupTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761260431EB31A3B0078C374 /* NKGroupTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		761260351EB31A3B0078C374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761260131EB31A3B0078C374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7612601A1EB31A3B0078C374;
+			remoteInfo = NKGroupTableView;
+		};
+		761260401EB31A3B0078C374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761260131EB31A3B0078C374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7612601A1EB31A3B0078C374;
+			remoteInfo = NKGroupTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7612601B1EB31A3B0078C374 /* NKGroupTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKGroupTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7612601F1EB31A3B0078C374 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		761260211EB31A3B0078C374 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		761260221EB31A3B0078C374 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		761260241EB31A3B0078C374 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		761260251EB31A3B0078C374 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		761260281EB31A3B0078C374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7612602A1EB31A3B0078C374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7612602D1EB31A3B0078C374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7612602F1EB31A3B0078C374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761260341EB31A3B0078C374 /* NKGroupTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKGroupTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		761260381EB31A3B0078C374 /* NKGroupTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKGroupTableViewTests.m; sourceTree = "<group>"; };
+		7612603A1EB31A3B0078C374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7612603F1EB31A3B0078C374 /* NKGroupTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKGroupTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		761260431EB31A3B0078C374 /* NKGroupTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKGroupTableViewUITests.m; sourceTree = "<group>"; };
+		761260451EB31A3B0078C374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		761260181EB31A3B0078C374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761260311EB31A3B0078C374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7612603C1EB31A3B0078C374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761260121EB31A3B0078C374 = {
+			isa = PBXGroup;
+			children = (
+				7612601D1EB31A3B0078C374 /* NKGroupTableView */,
+				761260371EB31A3B0078C374 /* NKGroupTableViewTests */,
+				761260421EB31A3B0078C374 /* NKGroupTableViewUITests */,
+				7612601C1EB31A3B0078C374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7612601C1EB31A3B0078C374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7612601B1EB31A3B0078C374 /* NKGroupTableView.app */,
+				761260341EB31A3B0078C374 /* NKGroupTableViewTests.xctest */,
+				7612603F1EB31A3B0078C374 /* NKGroupTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7612601D1EB31A3B0078C374 /* NKGroupTableView */ = {
+			isa = PBXGroup;
+			children = (
+				761260211EB31A3B0078C374 /* AppDelegate.h */,
+				761260221EB31A3B0078C374 /* AppDelegate.m */,
+				761260241EB31A3B0078C374 /* ViewController.h */,
+				761260251EB31A3B0078C374 /* ViewController.m */,
+				761260271EB31A3B0078C374 /* Main.storyboard */,
+				7612602A1EB31A3B0078C374 /* Assets.xcassets */,
+				7612602C1EB31A3B0078C374 /* LaunchScreen.storyboard */,
+				7612602F1EB31A3B0078C374 /* Info.plist */,
+				7612601E1EB31A3B0078C374 /* Supporting Files */,
+			);
+			path = NKGroupTableView;
+			sourceTree = "<group>";
+		};
+		7612601E1EB31A3B0078C374 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7612601F1EB31A3B0078C374 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		761260371EB31A3B0078C374 /* NKGroupTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				761260381EB31A3B0078C374 /* NKGroupTableViewTests.m */,
+				7612603A1EB31A3B0078C374 /* Info.plist */,
+			);
+			path = NKGroupTableViewTests;
+			sourceTree = "<group>";
+		};
+		761260421EB31A3B0078C374 /* NKGroupTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				761260431EB31A3B0078C374 /* NKGroupTableViewUITests.m */,
+				761260451EB31A3B0078C374 /* Info.plist */,
+			);
+			path = NKGroupTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7612601A1EB31A3B0078C374 /* NKGroupTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761260481EB31A3B0078C374 /* Build configuration list for PBXNativeTarget "NKGroupTableView" */;
+			buildPhases = (
+				761260171EB31A3B0078C374 /* Sources */,
+				761260181EB31A3B0078C374 /* Frameworks */,
+				761260191EB31A3B0078C374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKGroupTableView;
+			productName = NKGroupTableView;
+			productReference = 7612601B1EB31A3B0078C374 /* NKGroupTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		761260331EB31A3B0078C374 /* NKGroupTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7612604B1EB31A3B0078C374 /* Build configuration list for PBXNativeTarget "NKGroupTableViewTests" */;
+			buildPhases = (
+				761260301EB31A3B0078C374 /* Sources */,
+				761260311EB31A3B0078C374 /* Frameworks */,
+				761260321EB31A3B0078C374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761260361EB31A3B0078C374 /* PBXTargetDependency */,
+			);
+			name = NKGroupTableViewTests;
+			productName = NKGroupTableViewTests;
+			productReference = 761260341EB31A3B0078C374 /* NKGroupTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7612603E1EB31A3B0078C374 /* NKGroupTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7612604E1EB31A3B0078C374 /* Build configuration list for PBXNativeTarget "NKGroupTableViewUITests" */;
+			buildPhases = (
+				7612603B1EB31A3B0078C374 /* Sources */,
+				7612603C1EB31A3B0078C374 /* Frameworks */,
+				7612603D1EB31A3B0078C374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761260411EB31A3B0078C374 /* PBXTargetDependency */,
+			);
+			name = NKGroupTableViewUITests;
+			productName = NKGroupTableViewUITests;
+			productReference = 7612603F1EB31A3B0078C374 /* NKGroupTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		761260131EB31A3B0078C374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NorthKing;
+				TargetAttributes = {
+					7612601A1EB31A3B0078C374 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					761260331EB31A3B0078C374 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7612601A1EB31A3B0078C374;
+					};
+					7612603E1EB31A3B0078C374 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7612601A1EB31A3B0078C374;
+					};
+				};
+			};
+			buildConfigurationList = 761260161EB31A3B0078C374 /* Build configuration list for PBXProject "NKGroupTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 761260121EB31A3B0078C374;
+			productRefGroup = 7612601C1EB31A3B0078C374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7612601A1EB31A3B0078C374 /* NKGroupTableView */,
+				761260331EB31A3B0078C374 /* NKGroupTableViewTests */,
+				7612603E1EB31A3B0078C374 /* NKGroupTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		761260191EB31A3B0078C374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7612602E1EB31A3B0078C374 /* LaunchScreen.storyboard in Resources */,
+				7612602B1EB31A3B0078C374 /* Assets.xcassets in Resources */,
+				761260291EB31A3B0078C374 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761260321EB31A3B0078C374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7612603D1EB31A3B0078C374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761260171EB31A3B0078C374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761260261EB31A3B0078C374 /* ViewController.m in Sources */,
+				761260231EB31A3B0078C374 /* AppDelegate.m in Sources */,
+				761260201EB31A3B0078C374 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761260301EB31A3B0078C374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761260391EB31A3B0078C374 /* NKGroupTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7612603B1EB31A3B0078C374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761260441EB31A3B0078C374 /* NKGroupTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		761260361EB31A3B0078C374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7612601A1EB31A3B0078C374 /* NKGroupTableView */;
+			targetProxy = 761260351EB31A3B0078C374 /* PBXContainerItemProxy */;
+		};
+		761260411EB31A3B0078C374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7612601A1EB31A3B0078C374 /* NKGroupTableView */;
+			targetProxy = 761260401EB31A3B0078C374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		761260271EB31A3B0078C374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761260281EB31A3B0078C374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7612602C1EB31A3B0078C374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7612602D1EB31A3B0078C374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		761260461EB31A3B0078C374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		761260471EB31A3B0078C374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		761260491EB31A3B0078C374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NKGroupTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxiaowu.www.NKGroupTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7612604A1EB31A3B0078C374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NKGroupTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxiaowu.www.NKGroupTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7612604C1EB31A3B0078C374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NKGroupTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxiaowu.www.NKGroupTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NKGroupTableView.app/NKGroupTableView";
+			};
+			name = Debug;
+		};
+		7612604D1EB31A3B0078C374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NKGroupTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxiaowu.www.NKGroupTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NKGroupTableView.app/NKGroupTableView";
+			};
+			name = Release;
+		};
+		7612604F1EB31A3B0078C374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NKGroupTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxiaowu.www.NKGroupTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NKGroupTableView;
+			};
+			name = Debug;
+		};
+		761260501EB31A3B0078C374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NKGroupTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxiaowu.www.NKGroupTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NKGroupTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		761260161EB31A3B0078C374 /* Build configuration list for PBXProject "NKGroupTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761260461EB31A3B0078C374 /* Debug */,
+				761260471EB31A3B0078C374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761260481EB31A3B0078C374 /* Build configuration list for PBXNativeTarget "NKGroupTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761260491EB31A3B0078C374 /* Debug */,
+				7612604A1EB31A3B0078C374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7612604B1EB31A3B0078C374 /* Build configuration list for PBXNativeTarget "NKGroupTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7612604C1EB31A3B0078C374 /* Debug */,
+				7612604D1EB31A3B0078C374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7612604E1EB31A3B0078C374 /* Build configuration list for PBXNativeTarget "NKGroupTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7612604F1EB31A3B0078C374 /* Debug */,
+				761260501EB31A3B0078C374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 761260131EB31A3B0078C374 /* Project object */;
+}
