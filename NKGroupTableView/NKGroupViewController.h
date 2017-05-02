@@ -10,4 +10,6 @@
 
 @interface NKGroupViewController : UIViewController
 
+@property (nonatomic, strong) NSMutableArray * data;
+
 @end

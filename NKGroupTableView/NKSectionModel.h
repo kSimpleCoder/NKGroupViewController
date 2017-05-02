@@ -10,4 +10,10 @@
 
 @interface NKSectionModel : NSObject
 
+@property (nonatomic, assign) BOOL isOpen;
+@property (nonatomic, copy) NSString * title;
+@property (nonatomic, strong) NSArray * sectionArray;
+
++ (instancetype)sectionModelWithState:(BOOL)state title:(NSString *)title array:(NSArray *)array;
+
 @end

@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+@class NKSectionHeaderView;
+
+typedef void(^NKSectionBlock)(NKSectionHeaderView * view);
 
 @interface NKSectionHeaderView : UIView
+
+@property (nonatomic, copy) NSString * title;
+@property (nonatomic, copy) NSString * imageName;
+@property (nonatomic, strong) UIImageView * imageView;
+
+@property (nonatomic, copy) NKSectionBlock tapBlock;
+@property (nonatomic, copy) NKSectionBlock pressBlock;
+@property (nonatomic, copy) NKSectionBlock confirmBlock;
+
+- (void)close;
 
 @end

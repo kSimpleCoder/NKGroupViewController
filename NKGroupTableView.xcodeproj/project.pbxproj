@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7608387D1EB326E000998C5C /* NKSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608387C1EB326E000998C5C /* NKSectionHeaderView.m */; };
 		761260201EB31A3B0078C374 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7612601F1EB31A3B0078C374 /* main.m */; };
 		761260231EB31A3B0078C374 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761260221EB31A3B0078C374 /* AppDelegate.m */; };
 		761260261EB31A3B0078C374 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761260251EB31A3B0078C374 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		7612602E1EB31A3B0078C374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7612602C1EB31A3B0078C374 /* LaunchScreen.storyboard */; };
 		761260391EB31A3B0078C374 /* NKGroupTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761260381EB31A3B0078C374 /* NKGroupTableViewTests.m */; };
 		761260441EB31A3B0078C374 /* NKGroupTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761260431EB31A3B0078C374 /* NKGroupTableViewUITests.m */; };
+		761260531EB31A610078C374 /* NKGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761260521EB31A610078C374 /* NKGroupViewController.m */; };
+		761260561EB31E680078C374 /* NKSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 761260551EB31E680078C374 /* NKSectionModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7608387B1EB326E000998C5C /* NKSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSectionHeaderView.h; sourceTree = "<group>"; };
+		7608387C1EB326E000998C5C /* NKSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSectionHeaderView.m; sourceTree = "<group>"; };
 		7612601B1EB31A3B0078C374 /* NKGroupTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKGroupTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7612601F1EB31A3B0078C374 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		761260211EB31A3B0078C374 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		7612603F1EB31A3B0078C374 /* NKGroupTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKGroupTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		761260431EB31A3B0078C374 /* NKGroupTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKGroupTableViewUITests.m; sourceTree = "<group>"; };
 		761260451EB31A3B0078C374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761260511EB31A610078C374 /* NKGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKGroupViewController.h; sourceTree = "<group>"; };
+		761260521EB31A610078C374 /* NKGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKGroupViewController.m; sourceTree = "<group>"; };
+		761260541EB31E680078C374 /* NKSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSectionModel.h; sourceTree = "<group>"; };
+		761260551EB31E680078C374 /* NKSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSectionModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				761260221EB31A3B0078C374 /* AppDelegate.m */,
 				761260241EB31A3B0078C374 /* ViewController.h */,
 				761260251EB31A3B0078C374 /* ViewController.m */,
+				761260511EB31A610078C374 /* NKGroupViewController.h */,
+				761260521EB31A610078C374 /* NKGroupViewController.m */,
+				7608387B1EB326E000998C5C /* NKSectionHeaderView.h */,
+				7608387C1EB326E000998C5C /* NKSectionHeaderView.m */,
+				761260541EB31E680078C374 /* NKSectionModel.h */,
+				761260551EB31E680078C374 /* NKSectionModel.m */,
 				761260271EB31A3B0078C374 /* Main.storyboard */,
 				7612602A1EB31A3B0078C374 /* Assets.xcassets */,
 				7612602C1EB31A3B0078C374 /* LaunchScreen.storyboard */,
@@ -207,6 +222,7 @@
 				TargetAttributes = {
 					7612601A1EB31A3B0078C374 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = HHMGYEZ82B;
 						ProvisioningStyle = Automatic;
 					};
 					761260331EB31A3B0078C374 = {
@@ -273,9 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761260561EB31E680078C374 /* NKSectionModel.m in Sources */,
 				761260261EB31A3B0078C374 /* ViewController.m in Sources */,
+				7608387D1EB326E000998C5C /* NKSectionHeaderView.m in Sources */,
 				761260231EB31A3B0078C374 /* AppDelegate.m in Sources */,
 				761260201EB31A3B0078C374 /* main.m in Sources */,
+				761260531EB31A610078C374 /* NKGroupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,9 +445,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HHMGYEZ82B;
 				INFOPLIST_FILE = NKGroupTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liuxiaowu.www.NKGroupTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxiaowu.www.NKGroupView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,9 +457,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HHMGYEZ82B;
 				INFOPLIST_FILE = NKGroupTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liuxiaowu.www.NKGroupTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxiaowu.www.NKGroupView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -509,6 +530,7 @@
 				7612604A1EB31A3B0078C374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7612604B1EB31A3B0078C374 /* Build configuration list for PBXNativeTarget "NKGroupTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +539,7 @@
 				7612604D1EB31A3B0078C374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7612604E1EB31A3B0078C374 /* Build configuration list for PBXNativeTarget "NKGroupTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +548,7 @@
 				761260501EB31A3B0078C374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
