@@ -1,7 +1,7 @@
 # NKGroupViewController
 类似qq好友列表可以折叠的tableview  可以更改分组表头的标题  
 <br>
-原始界面
+<p style="background-color: orange">原始界面 </p>
 <br>
 <img src="https://github.com/kSimpleCoder/NKGroupViewController/blob/master/original.PNG" width = "320" alt="原始界面" align=center/>
 <br>
